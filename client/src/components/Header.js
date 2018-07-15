@@ -22,12 +22,13 @@ class Header extends Component {
             <a href={'/auth/logout'}>Logout</a>
           </li>
         ];
+			
     }
   }
 
   render() {
     return (
-      <nav className="green">
+      <nav className="teal accent-4"  style = {{marginBottom: '20px'}}>
         <div className="nav-wrapper">
           <Link
             to={this.props.auth ? '/blogs' : '/'}

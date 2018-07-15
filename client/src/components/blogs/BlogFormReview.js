@@ -25,13 +25,13 @@ class BlogFormReview extends Component {
 
     return (
       <div>
-        <button
+        <button style = {{marginTop : '30px'}} 
           className="yellow darken-3 white-text btn-flat"
           onClick={onCancel}
         >
           Back
         </button>
-        <button className="green btn-flat right white-text">
+        <button style = {{marginTop : '30px'}}  className="green btn-flat right white-text">
           Save Blog
           <i className="material-icons right">email</i>
         </button>
